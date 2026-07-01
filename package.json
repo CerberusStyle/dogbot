@@ -1,0 +1,11 @@
+{
+    "name": "djs-bad-words",
+    "version": "1.0.0",
+    "description": "Discord.JS Bad Words Bot",
+    "main": "index.js",
+    "author": "Joshwgaming",
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "dotenv": "^17.4.2"
+    }
+}
