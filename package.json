@@ -1,11 +1,14 @@
 {
-    "name": "djs-bad-words",
+    "name": "Dogbot",
     "version": "1.0.0",
-    "description": "Discord.JS Bad Words Bot",
+    "description": "Discord Auto Spam Bot",
     "main": "index.js",
-    "author": "Joshwgaming",
+    "author": "CerberusStyle and mkFix",
     "dependencies": {
+        "discord-api-types": "^0.38.49",
         "discord.js": "^13.6.0",
-        "dotenv": "^17.4.2"
+        "dotenv": "^17.4.2",
+        "fs": "^0.0.1-security",
+        "tesseract.js": "^7.0.0"
     }
 }
