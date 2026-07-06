@@ -7,8 +7,11 @@ client.login(botToken);
 
 client.once('ready', () => {
         console.log(`Logged in as ${client.user.tag}`);
-});
 
+        client.guilds.cache.forEach(guild => {
+           console.log(`Joined server: ${guild.name}`);
+       });
+});
 
 const spammerAutoMod = require('./automod/spammers.js');
 spammerAutoMod(client, Client, MessageEmbed)
